@@ -1,7 +1,7 @@
 kind: Service
 apiVersion: v1
 metadata:
-  name: sampleweb
+  name: sampleweb1
 spec:
   selector:
     tier: frontend
