@@ -1,7 +1,7 @@
 kind: Pod
 apiVersion: v1
 metadata:
-  name: pod-1
+  name: pod-name
   namespace: kube-public
 spec:
   containers:
