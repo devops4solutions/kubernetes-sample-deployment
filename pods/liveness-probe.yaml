@@ -9,7 +9,7 @@ spec:
     command:
         - /bin/bash
         - -ec
-        - touch /tmp/live; sleep 30; rm /tmp/live; sleep 600
+        - touch /tmp/live; sleep 30; rm /tmp/live; sleep 100
     livenessProbe:
        exec:
          command:
