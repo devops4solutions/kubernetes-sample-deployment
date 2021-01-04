@@ -3,7 +3,7 @@ apiVersion: v1
 metadata:
   name: pod-with-annotation
   annotation:
-    commit-message: testign for nginx
+    commit-message: testing for nginx
     owner: Nidhi
 spec:
   containers:
