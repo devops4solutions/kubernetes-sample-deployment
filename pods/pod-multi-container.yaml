@@ -8,7 +8,5 @@ spec:
     image: nginx
   - name: container-2
     image: ubuntu
-    command:
-    - /bin/bash
-    - -ec
-    - while :; do echo '.'; sleep 5; done
+    command: ["/bin/sh"]
+    args: ["-c", "while :; do echo 'welcome'; sleep 5; done"]
